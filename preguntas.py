@@ -120,7 +120,7 @@ def pregunta_04():
     df = pd.read_csv('gm_2008_region.csv', sep = ',', header=0,)
 
     # Asigne a la variable los valores de la columna `fertility`
-    X_fertility = df['fertility'].values.reshape(-1,1)_
+    X_fertility = df['fertility'].values.reshape(-1,1)
 
     # Asigne a la variable los valores de la columna `life`
     y_life = df['life'].values.reshape(-1,1)
